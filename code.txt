@@ -1,0 +1,90 @@
+//Index.js Imports
+
+// import { uchenna } from "./passport.js";
+// import { data } from "./data.js";
+
+// console.log(Passport)
+
+// Index.js textContent
+
+// answer1.textContent = uchenna.printFirstName()
+// answer2.textContent = uchenna.printLastName()
+// answer3.textContent = uchenna.printFullName()
+// answer4.textContent = uchenna.printInitials()
+// answer5.textContent = uchenna.isNameVaild()
+
+//passport .js console.logs
+
+// export let uchenna = new Passport ('ua', 'aaaa')
+// console.log(uchenna.printFirstName())
+// console.log('--')
+// console.log(uchenna.printLastName())
+// console.log('--')
+// console.log(uchenna.printFullName())
+// console.log('--')
+// console.log(uchenna.printInitials())
+
+//passport .js instance class
+
+// export class Passport {
+//     constructor(firstname,, lastname) {
+//         console.log('new instance reated')
+//         // this.firstname = firstname
+//         // this.lastname = lastname
+//     }
+
+//     printFirstName() {
+//         return this.firstname
+//      
+//     }
+
+//     printLastName() {
+//         // return this.lastname
+//      
+//     }
+
+//     printFullName() {
+//         return this.firstname + ' ' + this.lastname
+//     }
+
+//     printInitials() {
+//         return this.data.firstname[0]
+//     }
+
+//     isNameVaild() {
+//         if (this.firstname.length > 1 && this.lastname.length > 1) {
+//             return 'Yes'
+//         } else {
+//             return 'No'
+//         }
+//     }
+    
+// }
+
+//  Logic for typeof
+
+        // if (this.inputone.length > 1 && this.inputtwo.length > 1) {
+        //     return this.inputone[0] + "," + this.inputtwo[0]
+        // } else {
+        //     return ''
+        // }
+        // i belive i can also do typeOf equals undefined
+
+
+        // if (this.inputone.length >= 1) {
+        //     return this.inputone[0].toUpperCase() + "," + " "
+        // }
+        // else if (this.inputtwo.length >= 1) {
+        //     return " " + "," + this.inputtwo[0].toUpperCase()
+        // }
+        // else {
+        //     return this.inputone[0] + "," + this.inputtwo[0]
+        // }
+        // so when it's trying to call on this.inputone[0] that is underfined as the string has no info. so need to find out how to type this on logic to pick tis up
+        // put it on reddit see what they say..
+        // if (typeof(typeof this.inputone[0]) === undefined) {
+        //     return this.inputone[0]
+        // }
+        // console.log(typeof this.inputone)
+        // console.log(typeof this.inputtwo)
+        // return this.inputone[0] + "," + this.inputtwo[0]

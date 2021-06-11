@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scanner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <h1>Name Preview</h1>
+    </nav>
+
+    <fieldset>
+        <legend>Enter your details: </legend>
+
+        <form action="">
+            <label for=""> Enter your firstname
+                <input type="text" id="inputFirstName">
+            </label>
+            
+            <label for=""> Enter your lastname
+                <input type="text" id="inputLastName">
+            </label>
+        </form>
+
+        <table>
+            <thead>
+                <th></th>
+                <th>Your Data</th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Firstname</td>
+                    <td id="answer1"></td>
+                </tr>
+                <tr>
+                    <td>Lastname</td>
+                    <td id="answer2"></td>
+                </tr>
+                <tr>
+                    <td>Fullname</td>
+                    <td id="answer3"></td>
+                </tr>
+                <tr>
+                    <td>Initials</td>
+                    <td id="answer4"></td>
+                </tr>
+                <tr>
+                    <td>Valid name?</td>
+                    <td id="answer5"></td>
+                </tr>
+                <tr>
+                    <td>Name reversed</td>
+                    <td id="answer6"></td>
+                </tr>
+            </tbody>
+        </table>
+    </fieldset>
+
+<script type="module" src="index.js"></script>
+<script src="passport.js"></script>
+</body>
+</html>
